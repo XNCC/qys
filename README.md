@@ -21,5 +21,4 @@
             ncc.remoteServer=http://127.0.0.1:8080
             可以在application.property中设置
 
-![3DO2HQSWP[[L5UJEJJ7)J}R.png](https://i.loli.net/2019/11/07/MaQ9LU7xoDKXvH6.png)
-![0PADB`V%[29YE2[DOVUZ_YT.png](https://i.loli.net/2019/11/07/Lqb7vpC61RPBF54.png)
+![0PADB`V__29YE2_DOVUZ_YT.png](https://i.loli.net/2019/11/07/Lqb7vpC61RPBF54.png)
