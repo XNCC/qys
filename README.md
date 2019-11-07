@@ -24,3 +24,27 @@
 ![3DO2HQSWP__L5UJEJJ7_J_R.png](https://i.loli.net/2019/11/07/MaQ9LU7xoDKXvH6.png)
 
 ![0PADB`V__29YE2_DOVUZ_YT.png](https://i.loli.net/2019/11/07/Lqb7vpC61RPBF54.png)
+
+
+学习记录：
+maven学习笔记之IDEA+Maven+Jetty运行一个简单的web项目
+https://blog.csdn.net/qq_28640763/article/details/79868092
+maven jetty配置：
+https://blog.csdn.net/qq_39571197/article/details/86214159
+session一致性：
+https://blog.csdn.net/u010889616/article/details/79954000
+公钥秘钥签名
+https://blog.csdn.net/zh521zh/article/details/51819826
+http://47.102.131.146:8090/archives/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95%E5%AE%9E%E4%BE%8B
+https://blog.csdn.net/weixin_42231507/article/details/80899273
+restTemplate：
+设置请求头
+https://blog.csdn.net/u010139801/article/details/72770123
+derby：
+介绍：https://blog.csdn.net/Mrs_haining/article/details/82256437
+配置使用：https://blog.csdn.net/lncdzh/article/details/78723201
+连接用户名密码设置：
+java org.apache.derby.tools.ij
+connect 'jdbc:derby:D:/MYDB;create=true;user=root;password=123';
+ij：命令操作
+语法：http://www.360doc.com/content/13/0303/17/11098634_269063762.shtml
