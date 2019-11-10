@@ -29,7 +29,7 @@
       <version>3.1.0</version>
       <scope>provided</scope>
     </dependency>
-    <!--    连接mysql-->
+    <!--    连接mysql 先用的mysql后又改成derby，这里可以进行切换-->
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>

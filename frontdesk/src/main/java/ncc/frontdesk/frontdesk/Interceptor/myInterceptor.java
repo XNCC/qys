@@ -1,5 +1,6 @@
 package ncc.frontdesk.frontdesk.Interceptor;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -14,6 +15,8 @@ import javax.servlet.http.HttpServletResponse;
  */
 
 public class myInterceptor implements HandlerInterceptor {
+
+
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String username = (String) request.getSession().getAttribute("username");
