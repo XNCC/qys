@@ -27,13 +27,16 @@
 
 
 session的管理及客户端负载均衡：
+
             #redis配置
             spring.redis.host=192.168.43.202
             spring.redis.port=6379
+	    
 redis采用docker安装。
 nginx安装在centos。
 session管理采用springsession。
 nginx.config配置为
+
     upstream springsession {
         server 192.168.43.243:8090 weight=1;
         server 192.168.43.243:8091 weight=1;
