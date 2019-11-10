@@ -26,6 +26,33 @@
 ![0PADB`V__29YE2_DOVUZ_YT.png](https://i.loli.net/2019/11/07/Lqb7vpC61RPBF54.png)
 
 
+session的管理及客户端负载均衡：
+            #redis配置
+            spring.redis.host=192.168.43.202
+            spring.redis.port=6379
+redis采用docker安装。
+nginx安装在centos。
+session管理采用springsession。
+nginx.config配置为
+    upstream springsession {
+        server 192.168.43.243:8090 weight=1;
+        server 192.168.43.243:8091 weight=1;
+        }
+
+    server {
+        listen       80;
+        server_name  localhost;
+        location / {
+            proxy_pass http://springsession;
+	proxy_redirect default;
+        }
+        
+![WKB_QMDR`P_N0_TFNH81__7.png](https://i.loli.net/2019/11/10/Of3phYa8F5SVetJ.png)
+
+
+
+
+
 学习记录：
 maven学习笔记之IDEA+Maven+Jetty运行一个简单的web项目
 https://blog.csdn.net/qq_28640763/article/details/79868092
